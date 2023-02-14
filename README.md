@@ -15,3 +15,6 @@ Key words: Danish NLP, DaWinoBias, WinoBias, Ælæctra, DanishBERT, conference r
 * pip install -r requirements.txt
 * python -m spacy download da_core_news_lg 
 * python -m nltk.downloader all
+
+
+Testing git permissions

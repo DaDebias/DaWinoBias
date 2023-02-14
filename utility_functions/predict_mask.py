@@ -24,8 +24,9 @@ def predict_masked(lines, nlp, tokenizer):
         correct_pronoun = tokens[prons_idx]
 
         #MASK pronouns
-        tokens[prons_idx] = '[MASK]'
-
+        #tokens[prons_idx] = '[MASK]'
+        tokens[prons_idx] = '<mask>'
+        
         #collected sentence
         sentence = ' '.join(tokens)
         

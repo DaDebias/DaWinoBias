@@ -13,9 +13,11 @@ from utility_functions.model_evaluation import evaluate_model
 torch.manual_seed(3)
 
 #define model, pipeline and tokenizer
-model = "Maltehb/danish-bert-botxo"
+#model = "Maltehb/danish-bert-botxo"
+model = "xlm-roberta-base"
 nlp =  pipeline(task = "fill-mask", model = model) 
-tokenizer = spacy.load("da_core_news_lg") 
+#tokenizer = spacy.load("da_core_news_lg") 
+tokenizer = spacy.load("da_core_news_sm") 
 
 #load data set
 anti_lines, pro_lines = [], []
