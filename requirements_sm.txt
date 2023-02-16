@@ -1,0 +1,9 @@
+danlp == 0.1.2
+nltk == 3.8.1
+numpy == 1.24.2
+pandas == 1.5.3
+scikit_learn == 1.2.1
+spacy == 3.3.2
+torch == 1.12.1
+transformers == 4.20.1
+sklearn == 0.0.post1
